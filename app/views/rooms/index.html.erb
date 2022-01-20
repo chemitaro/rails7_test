@@ -11,4 +11,15 @@
   <div id="rooms" class="min-w-full">
     <%= render @rooms %>
   </div>
+
+  <div data-controller="reset-form">
+    <input data-hello-target="name" type="text">
+    <button data-action="click->reset-form#reset">Reset</button>
+  </div>
+
+    <div data-controller="hello">
+    <input data-hello-target="name" type="text">
+    <button data-action="click->hello#world">Hello</button>
+  </div>
+
 </div>
