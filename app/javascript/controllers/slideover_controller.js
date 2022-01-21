@@ -30,7 +30,7 @@
 //      </div>
 // </div>
 
-import Dropdown from './dropdown.js'
+import Dropdown from './dropdown_controller'
 
 export default class extends Dropdown {
   static targets = ['menu', 'overlay']
