@@ -30,7 +30,7 @@
 //      </div>
 // </div>
 
-import Dropdown from './dir/dropdown'
+import Dropdown from './dir/.'
 
 export default class extends Dropdown {
   static targets = ['menu', 'overlay']
